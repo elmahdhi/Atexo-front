@@ -1,0 +1,11 @@
+<div>
+  <div  class="buttons">
+    <button (click)="refresh()" class="btn-green">
+      <img class="icon" src="https://htmlacademy.ru/assets/icons/reload-6x-white.png" > Reload
+    </button>
+  </div>
+  <p><b>Before sort: </b></p>
+  <app-cards-container [cards]="cards"></app-cards-container>
+  <p><b>After sort: </b></p>
+  <app-cards-container [cards]="cardsSorted"></app-cards-container>
+</div>
